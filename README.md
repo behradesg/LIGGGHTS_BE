@@ -36,7 +36,7 @@ Clone or download the LIGGGHTS source from the repository.
 ### Build LIGGGHTS with CMake
 
 ```bash
-cd LIGGGHTS
+cd LIGGGHTS_BE
 mkdir -p src-build
 cd src-build
 cmake ../src/
@@ -49,7 +49,7 @@ You may want to create a permanent alias for the executable.
 
 ```bash
 gedit ~/.bashrc &
-alias liggghts='~/CFDEM/LIGGGHTS/src-build/liggghts'
+alias liggghts='~/CFDEM/LIGGGHTS_BE/src-build/liggghts'
 source ~/.bashrc
 ```
 
