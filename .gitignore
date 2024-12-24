@@ -1,52 +1,16 @@
-# Prerequisites
-*.d
+# outputs created by cases
+**/log.liggghts
+**/post/*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# tmp files etc created by various text editors
+**~
+\#*\#
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# files/directories created during compilation
+src/style_*.h
+src/version_liggghts.h
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+src/Obj_*
+src/lmp_*
+src/liblmp*
+src-build/
