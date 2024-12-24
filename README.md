@@ -43,16 +43,6 @@ cmake ../src/
 make
 ```
 
-### Build LIGGGHTS with make
-
-```bash
-cd LIGGGHTS
-mkdir -p src-build
-cd src
-make fedora
-cp lmp_fedora ../src-build/liggghts
-```
-
 ### Add an alias
 
 You may want to create a permanent alias for the executable.
@@ -61,20 +51,6 @@ You may want to create a permanent alias for the executable.
 gedit ~/.bashrc &
 alias liggghts='~/CFDEM/LIGGGHTS/src-build/liggghts'
 source ~/.bashrc
-```
-
-## Getting Started
-
-Navigate to the tutorials folder to run the chute_wear example case
-
-```bash
-cd ~/CFDEM/LIGGGHTS/examples/LIGGGHTS/Tutorials_public/chute_wear
-```
-
-Start the simulation by typing
-
-```bash
-liggghts -in in.chute_wear
 ```
 
 ## License
