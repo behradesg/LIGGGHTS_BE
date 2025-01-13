@@ -8,10 +8,7 @@ LIGGGHTS® is part of the [CFDEM®project](https://www.cfdem.com) and is based o
 
 ## Disclaimer
 
-> This is an academic adaptation of the LIGGGHTS® software package, released by the
-[Department of Particulate Flow Modelling at Johannes Kepler University in Linz, Austria.](https://www.jku.at/pfm)
-> LIGGGHTS® and CFDEM® are registered trademarks, and this offering is not approved or
-endorsed by DCS Computing GmbH, the official producer of the LIGGGHTS® and CFDEM®coupling software.
+> This is an adaptation of particulate flow modelling department LIGGGHTS.
 
 ## Installation
 
@@ -58,7 +55,5 @@ source ~/.bashrc
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 - This software is distributed under the [GNU General Public License](https://opensource.org/licenses/GPL-2.0).
-- Copyright © 2009-     JKU Linz
-- Copyright © 2012-2015 DCS Computing GmbH, Linz
 - Copyright © 2003      Sandia Corporation. Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.
 
